@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import fetch from 'node-fetch';
 import Layout from '../layout';
 import { createComponent } from 'react-fela';
-import differenceInMinutes from 'date-fns/difference_in_minutes';
 
 import { hasVoted, setVote } from '../utils';
 import F from '../firebase';

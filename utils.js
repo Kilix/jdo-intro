@@ -1,3 +1,5 @@
+import differenceInMinutes from 'date-fns/difference_in_minutes';
+
 export const hasVoted = () => {
   try {
     const voted = JSON.parse(localStorage.getItem('voted'));
