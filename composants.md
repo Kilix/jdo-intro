@@ -23,5 +23,17 @@ Créer un bouton qui accepte une fonction qui sera éxécuter lors du click.
 
 * onClick
 
+### Score: `components/score.js`
+
+###### Description
+
+Permet d'afficher le score de chaque joueur avec un style particulier.
+
+### Title: `components/title.js`
+
+###### Description
+
+Permet d'afficher le style de l'application.
+
 
 
