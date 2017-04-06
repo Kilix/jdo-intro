@@ -32,7 +32,7 @@ Pour sauvegarder dans la base de donnée une fonction est à ta disposition pour
 
 Pour AFR, elle s'utilise comme ceci : `afrRef.set(points);`
 
-On obtient donc à la fin pour la fonction voteAFR ceci: 
+On obtient donc à la fin pour la fonction voteAFR ceci:
 
 ```javascript
 voteAFR() {
@@ -46,8 +46,6 @@ voteAFR() {
 Le score de JDO est stocké dans `this.state.jdo` et la fonction pour sauvegarder dans la base de donnée est la suivante: `jdoRef.set(points);`
 
 A toi de jouer !
-
-
 
 ## Eviter les tricheurs
 
@@ -63,7 +61,23 @@ Pour rappel voici comment importer les deux fonctions que l'on va utiliser :
 import { hasVoted, setVote } from '../utils';
 ```
 
-Tu pourras trouver leur description et ce qu'elles font dans le page [API](/api.md).
+Tu pourras trouver leur description et ce qu'elles font et comment les utiliser dans le page [API](/api.md).
 
+Il faut donc vérifier que l'utilisateur n'a pas déjà voté. Si il n'a pas voté ou si il a voté il y a plus de 2 minutes alors on on comptabilise son vote sinon rien ne se passe.
 
+Pour cela, nous allons utiliser l'exemple donnée du If/Else pour la fonction `hasVoted()` et l'ajouter dans la fonction `voteAFR()` et `voteJDO()`
+
+Voici la fonction `voteAFR()` finale :
+
+```javascript
+voteAFR(){
+    const points = this.state.afr + 1;
+    if(hasVoted()){
+        setVote();
+        afrRef.set(points);
+    }
+}
+```
+
+Comme précédemment à toi de faire la fonction `voteJDO()`
 
