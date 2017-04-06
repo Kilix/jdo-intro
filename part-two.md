@@ -81,3 +81,17 @@ voteAFR(){
 
 Comme précédemment à toi de faire la fonction `voteJDO()`
 
+
+
+# BIEN JOUE !!
+
+Tu as terminé l'exercice. Si il reste du temps, on pourra toujours améliorer l'application avec des animations ou encore afficher un message lorsqu'une personne vote, etc, etc
+
+Un peu avant 12H, l'équipe vamos va faire leur stand-up quotidienne. Tu pourras y prendre part afin de découvrir cette activité et comment elle est utilisé à Kilix pour gérer la communication dans un projet.
+
+En espérant que tu as apprécié cette petite introduction dans le monde du dévelopement et que tu n'as pas trop peur de nous et reviendra nous voir quand tu passeras sur Paris :\)
+
+### &lt;3&lt;3 de Kiloux
+
+
+
