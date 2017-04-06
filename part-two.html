@@ -1,0 +1,361 @@
+
+<!DOCTYPE HTML>
+<html lang="fr" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Part Two · David versus Goliath</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        <meta name="author" content="wcastand">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="composants.html" />
+    
+    
+    <link rel="prev" href="part-one.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Tapez pour rechercher" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="getting-started.html">
+            
+                <a href="getting-started.html">
+            
+                    
+                    Getting started
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="part-one.html">
+            
+                <a href="part-one.html">
+            
+                    
+                    Part One
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4" data-path="part-two.html">
+            
+                <a href="part-two.html">
+            
+                    
+                    Part Two
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="composants.html">
+            
+                <a href="composants.html">
+            
+                    
+                    Composants
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="api.html">
+            
+                <a href="api.html">
+            
+                    
+                    API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="css-guide.html">
+            
+                <a href="css-guide.html">
+            
+                    
+                    CSS guide
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Publié avec GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Part Two</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="gestion-des-votes-et-du-bouton">Gestion des votes et du bouton</h1>
+<h3 id="objectifs">Objectifs</h3>
+<ul>
+<li>Styliser le bouton</li>
+<li>Ajouter un vote lors du click</li>
+<li>Autoriser un vote toutes les 2 minutes</li>
+</ul>
+<p>Pour styliser le bouton, rendez-vous dans <code>components/button.js</code> et suivre les commentaires comme dans la premi&#xE8;re partie.</p>
+<h3 id="gestion-du-click">Gestion du click</h3>
+<p>Le composant Button poss&#xE8;de une propri&#xE9;t&#xE9; onClick qui accepte une fonction.</p>
+<p>Cette fonction sera appell&#xE9;e lors du click sur le bouton. Elle doit donc ajouter un vote &#xE0; la bonne personne en fonction du bouton sur le quel l&apos;utilisateur a cliqu&#xE9;.</p>
+<p>Dans le fichier <code>pages/index.js</code> le composant Home poss&#xE8;de 2 fonctions, <code>voteAFR()</code> et <code>voteJDO()</code>.</p>
+<p>Elles sont vides pour l&apos;instant, ta mission si tu l&apos;acceptes sera de les &#xE9;crire pour enregistrer le vote dans une base de donn&#xE9;es afin de mettre &#xE0; jour l&apos;application. Pour cela, je vais te guider pour r&#xE9;aliser la fonction voteAFR() et te laisserai faire l&apos;autre qui est tr&#xE8;s similaire.</p>
+<h6 id="voteafr">voteAFR()</h6>
+<p>Le score des 2 concurrents est stock&#xE9; dans la variable <code>this.state</code> . Le score de AFR dans <code>this.state.afr</code>.</p>
+<p>Il est possible de stocker une valeur dans une variable afin de l&apos;utiliser plus tard dans la fonction. Nous allons donc sauvegarder le nouveau score de AFR dans une variable afin de l&apos;enregistrer dans une base de donn&#xE9;es.</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> points = <span class="hljs-keyword">this</span>.state.afr + <span class="hljs-number">1</span>;
+</code></pre>
+<p>Pour sauvegarder dans la base de donn&#xE9;es une fonction est &#xE0; ta disposition pour chaque concurrent.</p>
+<p>Pour AFR, elle s&apos;utilise comme ceci : <code>afrRef.set(points);</code></p>
+<p>On obtient donc &#xE0; la fin pour la fonction voteAFR ceci :</p>
+<pre><code class="lang-javascript">voteAFR() {
+   <span class="hljs-keyword">const</span> points = <span class="hljs-keyword">this</span>.state.afr + <span class="hljs-number">1</span>;
+   afrRef.set(points);
+}
+</code></pre>
+<h6 id="votejdo">voteJDO()</h6>
+<p>Le score de JDO est stock&#xE9; dans <code>this.state.jdo</code> et la fonction pour sauvegarder dans la base de donn&#xE9;es est la suivante: <code>jdoRef.set(points);</code></p>
+<p>A toi de jouer !</p>
+<h2 id="eviter-les-tricheurs">Eviter les tricheurs</h2>
+<p>Voil&#xE0; ton application fonctionne, cependant un utilisateur peut voter &#xE0; l&apos;infini et donc fausser les scores.</p>
+<p>On va donc le limiter &#xE0; 1 vote toutes les 2 minutes.</p>
+<p>Pour cela, tu vas pouvoir utiliser deux fonctions situ&#xE9;es dans le fichier d&apos;utils. Pour utiliser ces fonctions il faut d&apos;abord les importer tout comme le composant Score plut&#xF4;t dans l&apos;exercice.</p>
+<p>Pour rappel voici comment importer les deux fonctions que l&apos;on va utiliser :</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> { hasVoted, setVote } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;../utils&apos;</span>;
+</code></pre>
+<p>Tu pourras trouver leur description et ce qu&apos;elles font et comment les utiliser dans la page <a href="api.html">API</a>.</p>
+<p>Il faut donc v&#xE9;rifier que l&apos;utilisateur n&apos;a pas d&#xE9;j&#xE0; vot&#xE9;. Si il n&apos;a pas vot&#xE9; ou si il a vot&#xE9; il y a plus de 2 minutes alors on on comptabilise son vote sinon rien ne se passe.</p>
+<p>Pour cela, nous allons utiliser l&apos;exemple donn&#xE9;e du If/Else pour la fonction <code>hasVoted()</code> et l&apos;ajouter dans la fonction <code>voteAFR()</code> et <code>voteJDO()</code>.</p>
+<p>Voici la fonction <code>voteAFR()</code> finale :</p>
+<pre><code class="lang-javascript">voteAFR(){
+    <span class="hljs-keyword">const</span> points = <span class="hljs-keyword">this</span>.state.afr + <span class="hljs-number">1</span>;
+    <span class="hljs-keyword">if</span>(hasVoted()){
+        setVote();
+        afrRef.set(points);
+    }
+}
+</code></pre>
+<p>Comme pr&#xE9;c&#xE9;demment &#xE0; toi de faire la fonction <code>voteJDO()</code>.</p>
+<h1 id="bien-joue-">BIEN JOUE !!</h1>
+<p>Tu as termin&#xE9; l&apos;exercice. Si il reste du temps, on pourra toujours am&#xE9;liorer l&apos;application avec des animations ou encore afficher un message lorsqu&apos;une personne vote, etc, etc</p>
+<p>Un peu avant 12H, l&apos;&#xE9;quipe vamos va faire sa stand-up quotidienne. Tu pourras y prendre part afin de d&#xE9;couvrir cette activit&#xE9; et comment elle est utilis&#xE9;e chez Kilix pour g&#xE9;rer la communication dans un projet.</p>
+<p>En esp&#xE9;rant que tu as appr&#xE9;ci&#xE9; cette petite introduction dans le monde du d&#xE9;velopement, que tu n&apos;as pas trop peur de nous et reviendras nous voir quand tu passeras sur Paris :)</p>
+<h3 id="33-de-kiloux">&lt;3&lt;3 de Kiloux</h3>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="part-one.html" class="navigation navigation-prev " aria-label="Previous page: Part One">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="composants.html" class="navigation navigation-next " aria-label="Next page: Composants">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Part Two","level":"1.4","depth":1,"next":{"title":"Composants","level":"1.5","depth":1,"path":"composants.md","ref":"composants.md","articles":[]},"previous":{"title":"Part One","level":"1.3","depth":1,"path":"part-one.md","ref":"part-one.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"wcastand","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"David versus Goliath","language":"fr","gitbook":"*"},"file":{"path":"part-two.md","mtime":"2017-04-06T17:41:06.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-04-06T17:41:58.085Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

@@ -1,0 +1,391 @@
+
+<!DOCTYPE HTML>
+<html lang="fr" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>CSS guide · David versus Goliath</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        <meta name="author" content="wcastand">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="api.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Tapez pour rechercher" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="getting-started.html">
+            
+                <a href="getting-started.html">
+            
+                    
+                    Getting started
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="part-one.html">
+            
+                <a href="part-one.html">
+            
+                    
+                    Part One
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="part-two.html">
+            
+                <a href="part-two.html">
+            
+                    
+                    Part Two
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="composants.html">
+            
+                <a href="composants.html">
+            
+                    
+                    Composants
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="api.html">
+            
+                <a href="api.html">
+            
+                    
+                    API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.7" data-path="css-guide.html">
+            
+                <a href="css-guide.html">
+            
+                    
+                    CSS guide
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Publié avec GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >CSS guide</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="ressources">Ressources</h1>
+<p>Tu trouveras ci-dessous les diff&#xE9;rentes valeurs &#xE0; utiliser pour les couleurs, polices. ainsi qu&apos;un guide des diff&#xE9;rentes propri&#xE9;t&#xE9;s CSS dont tu auras besoin.</p>
+<h4 id="couleurs">Couleurs</h4>
+<ul>
+<li>#FFF</li>
+<li>#262425</li>
+<li>#FFE047</li>
+</ul>
+<h4 id="polices">Polices</h4>
+<ul>
+<li>Minecrafter</li>
+<li>Streamster</li>
+</ul>
+<h2 id="guide-des-propri&#xE9;t&#xE9;s-css-&#xE0;-utiliser">Guide des propri&#xE9;t&#xE9;s CSS &#xE0; utiliser</h2>
+<h2 id="couleur">Couleur</h2>
+<h5 id="backgroundcolor">backgroundColor</h5>
+<p>D&#xE9;finir la couleur du fond d&apos;un &#xE9;l&#xE9;ment.</p>
+<h5 id="color">color</h5>
+<p>Changer la couleur du texte</p>
+<pre><code class="lang-javascript">{
+    backgroundColor: <span class="hljs-string">&apos;#CAF200&apos;</span>,
+    backgroundColor: <span class="hljs-string">&apos;yellow&apos;</span>,
+
+    color: <span class="hljs-string">&apos;#caf200&apos;</span>,
+    color: <span class="hljs-string">&apos;red&apos;</span>,
+}
+</code></pre>
+<hr>
+<h2 id="police">Police</h2>
+<h5 id="fontfamily">fontFamily</h5>
+<p>Changer la police utilis&#xE9;e.</p>
+<h5 id="fontsize">fontSize</h5>
+<p>Changer la taille de la police.</p>
+<pre><code class="lang-javascript">{
+    fontFamily: <span class="hljs-string">&apos;Arial&apos;</span>,
+    fontFamily: <span class="hljs-string">&apos;Arial, sans-serif&apos;</span>,
+
+    fontSize: <span class="hljs-string">&apos;24px&apos;</span>,
+    fontSize: <span class="hljs-string">&apos;2rem&apos;</span>,
+}
+</code></pre>
+<hr>
+<h2 id="bordure">Bordure</h2>
+<h5 id="border">border</h5>
+<p>Permet d&apos;ajouter une bordure a un &#xE9;l&#xE9;ment.</p>
+<h5 id="borderradius">borderRadius</h5>
+<p>D&#xE9;terminer l&apos;arrondi des bords d&apos;un &#xE9;l&#xE9;ment.</p>
+<pre><code class="lang-javascript">{
+    border: <span class="hljs-string">&apos;2px solid #000000&apos;</span>,
+    border: <span class="hljs-string">&apos;4px dashed #CAF200&apos;</span>,
+
+    borderRadius:<span class="hljs-string">&apos;50%&apos;</span>,
+    borderRadius: <span class="hljs-string">&apos;50px&apos;</span>,
+    border: <span class="hljs-string">&apos;4px dashed #CAF200&apos;</span>,
+}
+</code></pre>
+<hr>
+<h2 id="marge">Marge</h2>
+<h5 id="margin">margin</h5>
+<p>Ajouter une marge externe.</p>
+<h5 id="padding">padding</h5>
+<p>Ajouter une marge interne.</p>
+<pre><code class="lang-javascript">{
+    margin: <span class="hljs-string">&apos;3px&apos;</span>,
+    margin: <span class="hljs-string">&apos;3px 5px&apos;</span>, <span class="hljs-comment">// Applique a marginTop et marginBottom puis marginLeft et marginRight</span>
+    margin: <span class="hljs-string">&apos;0px auto&apos;</span>, <span class="hljs-comment">// La m&#xEA;me chose mais laisse le navigateur d&#xE9;terminer la taille pour marginLeft et Right</span>
+    margin: <span class="hljs-string">&apos;3px 4px 4px 6px&apos;</span>,
+
+    marginBottom: <span class="hljs-string">&apos;3px&apos;</span>,
+    marginTop: <span class="hljs-string">&apos;3px&apos;</span>,
+    marginRight: <span class="hljs-string">&apos;3px&apos;</span>,
+    marginLeft: <span class="hljs-string">&apos;3px&apos;</span>,
+}
+</code></pre>
+<hr>
+<h2 id="transform">Transform</h2>
+<p>Appliquer des transformations &#xE0; l&apos;&#xE9;lement.</p>
+<ol>
+<li>rotate: Appliquer une rotation (exemple: &apos;rotate(90deg)&apos;)</li>
+<li>scale: Changer l&apos;echelle (exemple: &apos;scale(1.3)&apos;)</li>
+<li>skew: Changer l&apos;inclinaison (exemple: &apos;skew(5deg, 20deg)&apos;)</li>
+</ol>
+<p>Exemples :</p>
+<pre><code class="lang-js">{
+    transform: <span class="hljs-string">&apos;rotate(20deg)&apos;</span>,
+    transform: <span class="hljs-string">&apos;scale(2)&apos;</span>,
+    transform: <span class="hljs-string">&apos;skew(5deg, -10deg)&apos;</span>,
+    transform: <span class="hljs-string">&apos;rotate(20deg) scale(2)&apos;</span>,
+}
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="api.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: API">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"CSS guide","level":"1.7","depth":1,"previous":{"title":"API","level":"1.6","depth":1,"path":"api.md","ref":"api.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"wcastand","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"David versus Goliath","language":"fr","gitbook":"*"},"file":{"path":"css-guide.md","mtime":"2017-04-06T17:41:06.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-04-06T17:41:58.085Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
