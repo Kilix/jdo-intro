@@ -10,6 +10,7 @@
     "format": "prettier --single-quote --tab-width 2 --bracket-spacing true --trailing-comma all --write ./**/*.js"
   },
   "dependencies": {
+    "date-fns": "^1.28.2",
     "fela": "^4.3.2",
     "fela-preset-web": "^4.3.2",
     "firebase": "^3.7.5",
