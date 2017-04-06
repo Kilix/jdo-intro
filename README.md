@@ -2,9 +2,13 @@
 
 Bienvenue chez Kilix pour cette demi journée de bonheur et de joie. Nous avons préparé un petit exercice pour te faire découvrir les joies du code et de notre métier. En espérant que tu apprécis le voyage :\)
 
-## What are we gonna do ?!
+## Qué c'kon va faire ?!
 
 On avait penser à vamos v3 mais en une matinée on c'est dit que ça serait un peu compliqué donc on va créer une petite application web de vote. Elle utilisera les mêmes technologies que les projets de Kilix dont Vamos !
+
+## A quoi que ça ressemble ?
+
+
 
 
 
