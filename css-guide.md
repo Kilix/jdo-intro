@@ -1,4 +1,19 @@
-# Guide des propriétés CSS à utiliser
+# Ressources
+
+Tu trouveras ci-dessous les différentes valeur a utiliser pour les couleurs, polices. ainsi qu'un guide des différentes propriétés CSS dont tu auras besoin.
+
+#### Couleurs
+
+* \#FFF
+* \#262425
+* \#FFE047
+
+#### Polices
+
+* Minecrafter
+* Streamster
+
+## Guide des propriétés CSS à utiliser
 
 ## Couleur
 
