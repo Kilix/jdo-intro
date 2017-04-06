@@ -5,4 +5,5 @@
 * [Part One](part-one.md)
 * [Composants](composants.md)
 * [API](api.md)
+* [CSS guide](css-guide.md)
 
