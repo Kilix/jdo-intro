@@ -7,6 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "publish": "./publish-gitbook.sh",
     "format": "prettier --single-quote --tab-width 2 --bracket-spacing true --trailing-comma all --write ./**/*.js"
   },
   "dependencies": {
