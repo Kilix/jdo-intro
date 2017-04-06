@@ -15,9 +15,13 @@ Permet d'afficher le score en fond d'écran avec une couleur par concurent
 
 ### Button: `components/button.js`
 
+###### Description
 
+Créer un bouton qui accepte une fonction qui sera éxécuter lors du click.
 
+###### Propriétés:
 
+* onClick
 
 
 
