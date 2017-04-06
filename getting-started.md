@@ -41,5 +41,7 @@ Et pour finir ouvrons le navigateur chrome à l'adresse [http://localhost:3000/]
 
 ##### Voilà nous sommes pret à coder et dominer le monde !!!
 
+[Part One](/part-one.md)
+
 
 
