@@ -12,20 +12,9 @@ Pour commencer on va ajouter les composants manquant à l'application et leurs r
 
 Pour cela rendez-vous dans le fichier `pages/index.js`
 
-## Ressources
+Une fois terminé, tu peux passer à la partie 2 !
 
-Tu trouveras ci-dessous les différentes valeur a utiliser pour les couleurs, polices.
-
-#### Couleurs
-
-* \#FFF
-* \#262425
-* \#FFE047
-
-#### Polices
-
-* Minecrafter
-* Streamster
+[GO!GO!GO! ](/part-two.md)
 
 
 
