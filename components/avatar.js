@@ -7,6 +7,7 @@ const avatar = ({ src }) => ({
   backgroundPosition: 'center center',
   width: 200,
   height: 200,
+
   border: '2px solid #FFF',
   borderRadius: '50%',
   boxShadow: '2px 2px 1px 2px rgba(31, 31, 31, 1)',
