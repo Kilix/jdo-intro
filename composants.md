@@ -2,6 +2,12 @@
 
 Tu trouveras ici la liste des composants disponible pour réaliser l'application. Certains ne seront pas totalement stylisés, il faudra s'en occuper aussi !
 
+### Container: `components/container.js`
+
+###### Description
+
+Permet de créer un layout pour l'application. \(tu n'auras pas besoin\)
+
 ### Background: `components/background.js`
 
 ###### Description
@@ -33,7 +39,7 @@ Permet d'afficher le score de chaque joueur avec un style particulier.
 
 ###### Description
 
-Appliquer le style pour le 'VS'
+Appliquer le style pour le 'VS.'
 
 ### Title: `components/title.js`
 
