@@ -10,5 +10,7 @@ On avait penser à vamos v3 mais en une matinée on c'est dit que ça serait un 
 
 ![](/assets/Capture d’écran 2017-04-06 à 11.40.12 %282%29.png)
 
+# [Let's Go !](/getting-started.md)
+
 
 
