@@ -14,7 +14,7 @@ Changer la couleur du texte
 {
     backgroundColor: '#CAF200',
     backgroundColor: 'yellow',
-    
+
     color: '#caf200',
     color: 'red',
 }
@@ -36,7 +36,7 @@ Changer la taille de la police.
 {
     fontFamily: 'Arial',
     fontFamily: 'Arial, sans-serif',
-    
+
     fontSize: '24px',
     fontSize: '2rem',
 }
@@ -58,7 +58,7 @@ Déterminer l'arrondi des bords d'un élément.
 {
     border: '2px solid #000000',
     border: '4px dashed #CAF200',
-    
+
     borderRadius:'50%',
     borderRadius: '50px',
     border: '4px dashed #CAF200',
@@ -83,7 +83,7 @@ Ajouter une marge interne.
     margin: '3px 5px', // Applique a marginTop et marginBottom puis marginLeft et marginRight
     margin: '0px auto', // La même chose mais laisse le navigateur déterminer la taille pour marginLeft et Right
     margin: '3px 4px 4px 6px',
-    
+
     marginBottom: '3px',
     marginTop: '3px',
     marginRight: '3px',
