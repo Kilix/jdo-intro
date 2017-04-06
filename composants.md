@@ -13,7 +13,11 @@ Permet d'afficher le score en fond d'écran avec une couleur par concurent
 * afr
 * jdo
 
-## Button
+### Button: `components/button.js`
+
+
+
+
 
 
 
