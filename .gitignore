@@ -4,3 +4,4 @@ lib
 *.log
 .idea
 .next
+_book
