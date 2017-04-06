@@ -1,6 +1,6 @@
 # Ressources
 
-Tu trouveras ci-dessous les différentes valeur a utiliser pour les couleurs, polices. ainsi qu'un guide des différentes propriétés CSS dont tu auras besoin.
+Tu trouveras ci-dessous les différentes valeurs à utiliser pour les couleurs, polices. ainsi qu'un guide des différentes propriétés CSS dont tu auras besoin.
 
 #### Couleurs
 

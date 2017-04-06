@@ -4,7 +4,7 @@ Pour commencer, on va commencer par ouvrir un terminal, LE saint graal du dével
 
 Pour cela, rien de plus simple, il suffit de taper sur `CMD + Espace`, rechercher 'Hyper' puis appuyer sur Entrée.
 
-Une fois le terminal ouvert, écrire les commandes suivantes pour etre dans le bon dossier :
+Une fois le terminal ouvert, écrire les commandes suivantes pour être dans le bon dossier :
 
 ```
 cd ~/Documents/JDO
@@ -17,7 +17,7 @@ git clone https://github.com/Kilix/jdo-intro
 cd jdo-intro
 ```
 
-Pour que le projet fonctionne et que l'on puisse développer, il nous reste quelques commandes a lancer, elles permettent de récupérer les dépendances du projet que la communauté de développeur a gentillement mis à disposition. Ces ressources sont développés par énormément de développeurs et entreprises tels que Facebook, Google, etc.
+Pour que le projet fonctionne et que l'on puisse développer, il nous reste quelques commandes à lancer, elles permettent de récupérer les dépendances du projet que la communauté de développeur a gentillement mis à disposition. Ces ressources sont développées par énormément de développeurs et entreprises tels que Facebook, Google, etc.
 
 Voici comment installer ces dépendances :
 
