@@ -2,7 +2,7 @@
 
 Pour commencer, on va commencer par ouvrir un terminal, LE saint graal du développeur.
 
-Pour cela, rien de plus simple, il suffit de taper sur \`CMD + Espace\`, rechercher 'Hyper' puis appuyer sur Entrée.
+Pour cela, rien de plus simple, il suffit de taper sur `CMD + Espace`, rechercher 'Hyper' puis appuyer sur Entrée.
 
 Une fois le terminal ouvert, écrire les commandes suivantes pour etre dans le bon dossier :
 
