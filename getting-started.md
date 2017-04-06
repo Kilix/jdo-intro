@@ -1,7 +1,5 @@
 # How to start
 
-
-
 Pour commencer, on va commencer par ouvrir un terminal, LE saint graal du développeur.
 
 Pour cela, rien de plus simple, il suffit de taper sur \`CMD + Espace\`, rechercher 'Hyper' puis appuyer sur Entrée.
@@ -40,4 +38,8 @@ yarn run dev
 ```
 
 Et pour finir ouvrons le navigateur chrome à l'adresse [http://localhost:3000/](http://localhost:3000/ "http://localhost:3000/")
+
+##### Voilà nous sommes pret à coder et dominer le monde !!!
+
+
 
