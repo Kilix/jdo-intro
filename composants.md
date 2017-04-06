@@ -2,11 +2,15 @@
 
 Tu trouveras ici la liste des composants disponible pour réaliser l'application. Certains ne seront pas totalement stylisés, il faudra s'en occuper aussi !
 
-### Container: `components/container.js`
+### Avatar: `components/avatar.js`
 
 ###### Description
 
-Permet de créer un layout pour l'application. \(tu n'auras pas besoin\)
+Affiche la photo d'un concurent
+
+###### Propriétés:
+
+* src
 
 ### Background: `components/background.js`
 
@@ -28,6 +32,12 @@ Créer un bouton qui accepte une fonction qui sera éxécuter lors du click.
 ###### Propriétés:
 
 * onClick
+
+### Container: `components/container.js`
+
+###### Description
+
+Permet de créer un layout pour l'application. \(tu n'auras pas besoin\)
 
 ### Score: `components/score.js`
 
