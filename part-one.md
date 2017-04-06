@@ -1,4 +1,4 @@
-## Créer le layout de l'application
+## Créer le layout de l'application et Styliser les composants
 
 Pour commencer on va ajouter les composants manquant à l'application et leurs refaire une beauté.
 
