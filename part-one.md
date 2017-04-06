@@ -9,7 +9,6 @@ Pour commencer on va ajouter les composants manquant à l'application et leurs r
 * Styliser le composant Button
 * Ajouter le composant Score
 * Styliser le composant Title
-* Comptabiliser le vote au click et l'empêcher de revoter avant 2 minutes.
 
 Pour cela rendez-vous dans le fichier `pages/index.js`
 
