@@ -29,11 +29,15 @@ Créer un bouton qui accepte une fonction qui sera éxécuter lors du click.
 
 Permet d'afficher le score de chaque joueur avec un style particulier.
 
+### Span: `components/span.js`
+
+###### Description
+
+Appliquer le style pour le 'VS'
+
 ### Title: `components/title.js`
 
 ###### Description
 
 Permet d'afficher le style de l'application.
-
-
 
