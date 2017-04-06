@@ -6,7 +6,7 @@ Tu trouveras ici la liste des composants disponible pour réaliser l'application
 
 ###### Description
 
-Affiche la photo d'un concurent
+Affiche la photo d'un concurrent
 
 ###### Propriétés:
 
@@ -18,7 +18,7 @@ Affiche la photo d'un concurent
 
 ###### Description
 
-Permet d'afficher le score en fond d'écran avec une couleur par concurent
+Permet d'afficher le score en fond d'écran avec une couleur par concurrent
 
 ###### Propriétés:
 
@@ -31,7 +31,7 @@ Permet d'afficher le score en fond d'écran avec une couleur par concurent
 
 ###### Description
 
-Créer un bouton qui accepte une fonction qui sera éxécuter lors du click.
+Créer un bouton qui accepte une fonction qui sera exécutée lors du click.
 
 ###### Propriétés:
 
@@ -43,7 +43,7 @@ Créer un bouton qui accepte une fonction qui sera éxécuter lors du click.
 
 ###### Description
 
-Permet de créer un layout pour l'application. \(tu n'auras pas besoin\)
+Permet de créer un layout pour l'application. \(tu n'en auras pas besoin\)
 
 ---
 
