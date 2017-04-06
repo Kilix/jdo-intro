@@ -1,3 +1,4 @@
 {
-    root: ".gitbook"
+    "root": ".gitbook",
+    "title": "JDO Test",
 }
