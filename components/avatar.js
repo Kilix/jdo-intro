@@ -7,10 +7,13 @@ const avatar = ({ src }) => ({
   backgroundPosition: 'center center',
   width: 200,
   height: 200,
-
-  border: '2px solid #FFF',
-  borderRadius: '50%',
   boxShadow: '2px 2px 1px 2px rgba(31, 31, 31, 1)',
+  /*
+    Ajouter le style manquant ici:
+    - ajouter une bordure de 2px blanche (#FFF)
+    - arrondir les contours pour former un rond (value: 50%)
+
+  */
 });
 
 export default createComponent(avatar, 'div');
