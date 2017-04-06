@@ -4,6 +4,7 @@ import Layout from '../layout';
 import { createComponent } from 'react-fela';
 import differenceInMinutes from 'date-fns/difference_in_minutes';
 
+import { hasVoted, setVote } from '../utils';
 import F from '../firebase';
 
 import Avatar from '../components/avatar';
@@ -18,21 +19,6 @@ const afrRef = F.database().ref('afr');
 const jdoRef = F.database().ref('jdo');
 
 const neFaisRien = () => {};
-const hasVoted = () => {
-  try {
-    const voted = JSON.parse(localStorage.getItem('voted'));
-    return voted !== null ? differenceInMinutes(new Date(), new Date(voted.date)) < 2 : false;
-  } catch (e) {
-    return false;
-  }
-};
-const setVote = () => {
-  try {
-    localStorage.setItem('voted', JSON.stringify({ voted: true, date: new Date() }));
-  } catch (e) {
-    return false;
-  }
-};
 
 class Home extends Component {
   static async getInitialProps() {
