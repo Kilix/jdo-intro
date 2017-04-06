@@ -15,3 +15,22 @@ Pour cela rendez-vous dans le fichier `pages/index.js`
 
 
 
+## Ressources
+
+Tu trouveras ci-dessous les différentes valeur a utiliser pour les couleurs, polices.
+
+#### Couleurs
+
+* \#FFF
+* \#262425
+* \#FFE047
+
+#### Polices
+
+* Minecrafter
+* Streamster
+
+
+
+
+
