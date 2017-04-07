@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p $PORT",
     "publish": "./publish-gitbook.sh",
     "format": "prettier --single-quote --tab-width 2 --bracket-spacing true --trailing-comma all --write ./**/*.js",
     "docs:prepare": "gitbook install",
@@ -17,6 +17,9 @@
     "node": "7.8.0",
     "npm": "4.2.0"
   },
+  "cacheDirectories": [
+    "nextjs/node_modules"
+  ],
   "dependencies": {
     "date-fns": "^1.28.2",
     "es6-promise": "^4.1.0",
