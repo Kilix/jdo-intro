@@ -9,6 +9,13 @@ const title = () => ({
   '>span': {
     marginLeft: 80,
   },
+  padding: '0px',
+  marginBottom: '100px',
+  fontFamily: 'Minecrafter',
+  fontSize: '90px',
+  color: '#FFE047',
+  transform: 'skew(-12deg,-20deg)',
+
   /*
   Ajouter le style manquant pour le titre:
   - reset les marge interne à 0 (padding)

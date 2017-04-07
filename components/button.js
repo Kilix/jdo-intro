@@ -16,6 +16,13 @@ const button = props => ({
     left: 1,
     boxShadow: '1px 1px 0px 0px rgba(31, 31, 31, 1)',
   },
+margin: '18px',
+padding: '14px',
+marginBottom: '5px',
+color: '#262425',
+backgroundColor: '#FFE047',
+fontSize: '24px',
+fontFamily: 'Minecrafter',
 
   /*
     Ajouter le style manquant ici:
