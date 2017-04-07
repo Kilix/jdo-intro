@@ -6,6 +6,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start -p $PORT",
+    "heroku-postbuild": "heroku-nextjs-build",
     "publish": "./publish-gitbook.sh",
     "format": "prettier --single-quote --tab-width 2 --bracket-spacing true --trailing-comma all --write ./**/*.js",
     "docs:prepare": "gitbook install",
@@ -21,6 +22,7 @@
     "nextjs/node_modules"
   ],
   "dependencies": {
+    "@mars/heroku-nextjs-build": "^2.0.0",
     "date-fns": "^1.28.2",
     "es6-promise": "^4.1.0",
     "fela": "^4.3.2",
