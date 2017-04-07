@@ -1,5 +1,7 @@
+require('es6-promise').polyfill();
+require('isomorphic-fetch');
+
 import React, { Component } from 'react';
-import fetch from 'node-fetch';
 import Layout from '../layout';
 import { createComponent } from 'react-fela';
 

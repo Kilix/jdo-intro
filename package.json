@@ -15,9 +15,11 @@
   },
   "dependencies": {
     "date-fns": "^1.28.2",
+    "es6-promise": "^4.1.0",
     "fela": "^4.3.2",
     "fela-preset-web": "^4.3.2",
     "firebase": "^3.7.5",
+    "isomorphic-fetch": "^2.2.1",
     "next": "^2.0.1",
     "node-fetch": "^1.6.3",
     "react": "^15.4.2",
